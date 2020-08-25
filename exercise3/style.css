@@ -1,0 +1,64 @@
+.div1{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    }
+    
+    .div2{
+        
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute; 
+    left: 125px;  
+    }
+    .div3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 125px;
+    }
+    
+    .div4{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute; 
+    top: 125px;
+    left: 125px;
+    }
+    
+    
+    .div5{
+    background-color:red;
+    height: 100px;
+    width: 100px;
+    position: absolute; 
+    top: 65px;
+    left:65px;
+    transform:rotate(45deg);
+
+    }
+
+    .div1::after{ 
+content:" ★ " ;
+background-color:white;
+z-index: 2 ;
+height: 25%;
+width: 25%;        
+border: 4px white solid;
+border-radius: 50%;
+position:absolute;
+top: 90PX;
+left:90px;
+right: 50px;
+
+}
+    
+
+
+
+
+
